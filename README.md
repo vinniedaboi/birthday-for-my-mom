@@ -1,34 +1,49 @@
-Happy Birthday
+# Happy Birthday
 
-A Happy Birthday animation design in CSS3, HTML5.
+A Happy Birthday animation design using CSS3 and HTML5.
 
-URL: http://ayusharma.github.io/birthday/
+## Technology Used
 
-Technology Used: HTML5 CSS3 jQuery  GNU/Linux Digital Ocean as VPS GIMP
+- **HTML5**
+- **CSS3**
+- **jQuery**
+- **GNU/Linux**
+- **Digital Ocean** (as VPS)
+- **GIMP**
 
-# Setup
+## Setup
 
-## If you have python installed:
-```
-cd Birthday
-```
+### If you have Python installed:
 
-&& 
+1. Navigate to the project directory:
+    ```sh
+    cd Birthday
+    ```
 
-```
-python -m SimpleHTTPServer --port  8081
-```
+2. Start a simple HTTP server:
+    ```sh
+    python -m SimpleHTTPServer --port 8081
+    ```
 
-visit http://localhost:8081 in your browser.
+3. Visit [http://localhost:8081](http://localhost:8081) in your browser.
 
-## If you have nodejs installed
-```
-npm install
-```
-&&
+### If you have Node.js installed:
 
-```
-npm run server-node
-```
-visit http://localhost:8081 in your browser.
+1. Install the necessary packages:
+    ```sh
+    npm install
+    ```
 
+2. Start the server:
+    ```sh
+    npm run server-node
+    ```
+
+3. Visit [http://localhost:8081](http://localhost:8081) in your browser.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+
+Enjoy the animation and Happy Birthday Momma!
